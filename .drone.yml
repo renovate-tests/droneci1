@@ -3,7 +3,7 @@ name: Test
 
 steps:
   - name: mix
-    image: elixir:1.8.1-alpine@sha256:13713e199a4944b342d1546d33c33e823cf471643181e102a821998ecd85ce11
+    image: elixir:1.9.1-alpine@sha256:74d35e9c87122e517235651bb0be2a68972ad36b3e40fabb198ca5b4e472bd85
     environment:
       DB_HOST: mysql
     commands:
