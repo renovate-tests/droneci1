@@ -14,7 +14,7 @@ steps:
       - mix test
 
   - name: node
-    image: amd64/node:10.0.0@sha256:36adc17e9cceab32179d3314da9cb9c737ffb11f0de4e688f407ad6d9ca32201
+    image: amd64/node:10.16.0@sha256:2901e1fa26d1f430c93178cef3e3c024ec71c66f31c5decec45c4f6e9e164ce4
     commands:
       - npm install
       - npm test
