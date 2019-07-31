@@ -3,7 +3,7 @@ name: Test
 
 steps:
   - name: mix
-    image: elixir:1.8.1-alpine
+    image: elixir:1.8.1-alpine@sha256:13713e199a4944b342d1546d33c33e823cf471643181e102a821998ecd85ce11
     environment:
       DB_HOST: mysql
     commands:
@@ -21,11 +21,11 @@ steps:
 
 services:
   - name: mysql
-    image: mysql:5.7.24
+    image: mysql:5.7.24@sha256:bf17a7109057494c45fba5aab7fc805ca00ac1eef638dfdd42b38d5a7190c9bb
     ports:
       - 3306
 
   - name: redis
-    image: redis:alpine
+    image: redis:alpine@sha256:4a09815a6755e372b9ab96a0ed3229cbb34a8d1998ef18f5072278ff2cb86923
     ports:
       - 6379
