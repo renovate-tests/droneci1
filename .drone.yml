@@ -21,7 +21,7 @@ steps:
 
 services:
   - name: mysql
-    image: mysql:5.7.24@sha256:bf17a7109057494c45fba5aab7fc805ca00ac1eef638dfdd42b38d5a7190c9bb
+    image: mysql:5.7.27@sha256:540488d8f0e04c1077d17934d1c1511fe417e2221dff508ce4621f5efe6131db
     ports:
       - 3306
 
